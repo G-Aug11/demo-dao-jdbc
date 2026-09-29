@@ -60,7 +60,7 @@ public class SellerDaoJDBC implements SellerDao {
 	}
 
 	@Override
-	public void updtade(Seller obj) {
+	public void update(Seller obj) {
 		PreparedStatement st = null;
 		try {
 			st = conn.prepareStatement("UPDATE seller "
